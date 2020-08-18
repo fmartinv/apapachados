@@ -1,0 +1,24 @@
+body{
+    font-family:  'Dancing Script', cursive;
+    
+    background-image: url("../imagenes/backlunareschicos.jpeg");
+}
+
+/*navbar*/
+#navigator{
+    background-image: url("../imagenes/backlunareschicos.jpeg");
+    font-size: x-large;
+
+}
+
+/*slider*/
+
+.w-100 {
+    width: 90% !important;
+    height: 90vh;
+  }
+
+  /*titulo*/
+  #titulo{
+    font-size: 40px;  
+  }
