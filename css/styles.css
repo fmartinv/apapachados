@@ -1,5 +1,5 @@
 body{
-    font-family:  'Dancing Script', cursive;
+    font-family: 'Roboto', sans-serif;
     
     background-image: url("../imagenes/backlunareschicos.jpeg");
 }
@@ -8,7 +8,7 @@ body{
 #navigator{
     background-image: url("../imagenes/backlunareschicos.jpeg");
     font-size: x-large;
-
+    font-family:  'Dancing Script', cursive;
 }
 
 /*slider*/
@@ -21,4 +21,7 @@ body{
   /*titulo*/
   #titulo{
     font-size: 40px;  
+  }
+  #cuatrocielos{
+    font-family:  'Dancing Script', cursive;
   }
