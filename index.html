@@ -10,6 +10,7 @@
     <!-- fuentes -->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2ef9a485dc.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -18,10 +19,10 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <div  id= "navigator" class="navbar-light   ">  
+    <div  id= "navigator" class="navbar-light  sticky-top ">  
     
 
-        <nav  id= "navigator"  class="navbar navbar-expand-md navbar-light  container sticky-top">
+        <nav  id= "navigator"  class="navbar navbar-expand-lg navbar-collapse navbar-light  container  sticky-top ">
           
             <a class="navbar-brand" href="#">
                 <img src="imagenes/logo1.jpeg" width="120" height="120" alt="logo"><span id="titulo">Apapachados</span> 
@@ -40,8 +41,9 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Contacto
                     </a>
+                    
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">instagram</a>
+                    <a class="dropdown-item" href="https://www.instagram.com/apapachadoscrochet/">instagram</a>
                     <a class="dropdown-item" href="https://www.facebook.com/Apapachados">facebook</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="https://www.facebook.com/cuatrocielos.love">Cuatro Cielos</a>
@@ -61,13 +63,13 @@
     <!-- SLIDER -->
 
     
-    <div id="carouselExampleIndicators" class="carousel slide h-50 container data-ride = carousel">
+    <div id="carouselExampleIndicators" class="carousel slide h-50 container " data-ride= "carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner">
+        <div class="carousel-inner" data-interval="10000">
             <div class="carousel-item active">
             <img class="d-block w-100  " src="imagenes/venado-removebgfull.png" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
@@ -177,7 +179,7 @@
             <hr class="my-4">
             <p>Podes ver muchos de nuestros trabajos en nuestras redes sociales</p>
             <p class="lead">
-                <a class="btn btn-primary btn-lg" href="https://www.facebook.com/Apapachados" role="button">Contacto</a>
+                <a class="btn btn-primary btn-lg" href="https://www.instagram.com/cuatrocielos.love/" target="_blank" role="button">Contacto</a>
             </p>
         </div>
         
@@ -185,8 +187,9 @@
 
    <!-- SECTION dos -->
    <section class="container my-5">
-    <h2 class="display-4 text-center">Regalos para los recien nacidos</h2>
+    <h2 id="cuatrocielos"   class="display-4 text-center">Regalos para los Recién Nacidos</h2>
     <p class="lead text-center my-4 text-dark">Hechos a mano cuidando todos los detalles</p>
+
     <!-- CARD -->
     <div class="card-deck">
         <div class="row">
@@ -250,11 +253,30 @@
     </div><!-- CARD -->
 </section><!-- SECTION dos -->
 
-    <footer class="bg-dark text-white mt-5 py-4 text-center">
-        <div class="container">
-            <p></p>Tel n°02622 40-5451- 
+    <footer class="bg-dark text-white mt-5 py-4 ">
+        <div class="container ">
+          <div class="row d-flex justify-content-around">     
+               <div class="col-md-3">
+                <p>02622 40-5451- 
             02622 40-5451</p>
+            </div>
+            
+       
+        <div class="col-md-3 d-flex justify-content-around">
+            <span  ><i class="fab fa-facebook-square fa-3x"></i>
+                <a href= "https://www.facebook.com/cuatrocielos.love"></a>
+            </span>
+            <span>
+    
+              <i class="fab fa-instagram fa-3x"></i>  
+              <a href="https://www.instagram.com/apapachadoscrochet/"></a>
+            </span>
+           
+            
+            
         </div>
+        </div> 
+     </div>
     </footer>
 
     
